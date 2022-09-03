@@ -88,7 +88,7 @@ DRUGS = ["Aztreonam", "Ceftazidime-avibactam", "Piperacillin-tazobactam", "Ampic
 BEST_EPOCH = 52
 
 # Whether you want to skip training and just plot results or you want to tune and train each antibiotic model
-SKIP_TRAIN = False
+SKIP_TRAIN = True
 
 class BahdanauAttention(layers.Layer):
   """Code found at: 
